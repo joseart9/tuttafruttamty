@@ -1,2 +1,1 @@
-# tuttafruttamty
-Tutta Frutta Web App 
+# goals
