@@ -11,20 +11,20 @@
             <h1 class="display-2 text-bottom_left"><b>Tutta Frutta</b></h1>
             <!--Menu del web app-->
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="tienda.html">Tienda</a>
+                <a class="navbar-brand" href="tienda.php">Tienda</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link" href="ventas">Ventas</a>
+                            <a class="nav-link" href="ventas.php">Ventas</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="inventario.html">Inventario</a>
+                            <a class="nav-link" href="inventario.php">Inventario</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="panel.html">Panel</a>
+                            <a class="nav-link" href="panel.php">Panel</a>
                         </li>
                     </ul>
                 </div>
@@ -32,6 +32,8 @@
     </div>
   </head>
   <body>
+<<<<<<< HEAD
+=======
       <!--- Crear una tabla horizontal con bootstrap para registrar las ventas -->
         <div class="container">
             <div class="row">
@@ -94,5 +96,6 @@
         </div>
     <!-- JS, Popper.js, and jQuery -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+>>>>>>> 4bf08b3ac2be5a63a5d08aff22d3742a397412d4
   </body>
 </html>
