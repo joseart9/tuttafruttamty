@@ -56,12 +56,14 @@ if (mysqli_num_rows($result) > 0) {
                                     </tr>
                                 </thead>
                                 <tbody>";
+    $cont = 1;
     while ($row = mysqli_fetch_assoc($result)) {
         echo "<tr>
-                <th scope='row'>" . $row['ID'] . "</th>
+                <th scope='row'>" . $cont . "</th>
                 <td>" . $row['Fruta'] . "</td>
                 <td>" . $row['Precio'] . "</td>
             </tr>";
+        $cont++;
     }
     echo "</tbody>
             </table>
