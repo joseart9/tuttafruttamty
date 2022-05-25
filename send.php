@@ -1,4 +1,7 @@
 <?php
+
+$today = date("Ymd");
+
 require_once 'connect.php';
 
 $fruta = $_REQUEST['fruta'];
@@ -7,9 +10,10 @@ $sucursal = $_REQUEST['sucursal'];
 $precio = $_REQUEST['precio'];
 
 while($cantidad >= 1) {
-  $sql = "INSERT INTO ventas (Fruta, Precio, Sucursal) VALUES ";
+  $sql = "INSERT INTO ventas (Fruta, Precio, FechaNorm, Sucursal) VALUES ";
   $sql .= "('" . $fruta . "',";
   $sql .= "'" . $precio . "',";
+  $sql .= "'" . $today . "',";
   $sql .= "'" .$sucursal . "')";
   $cantidad--;
 
@@ -22,6 +26,6 @@ while($cantidad >= 1) {
 }
 
 //regresar a index.php
-header("Location: index.php");
+header("Location: ventas.php");
 
  ?>
